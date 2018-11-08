@@ -1,0 +1,20 @@
+KISS
+keep
+it
+stupid
+simple
+
+YAGNI
+you arent gonna need it
+
+DRY
+dont
+repeat
+yourself
+
+SOLID 
+single responsibility
+open-closed(открыт для расширения, закрыт для модификации внутри)
+liskov's substitution(принцип подставновки, подстановка дочерних классов не должна менять поведение)
+interface segregation(разделение интерфейсов)
+dependency inversion(абстракции вместо реализаций?)
