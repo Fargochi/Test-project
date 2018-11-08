@@ -1,0 +1,6 @@
+https://nodejs.org/en/
+
+просто идем по установке, ничего не меняя, на всякий случай
+
+про express
+https://medium.com/devschacht/node-hero-chapter-4-c2ebcd12565c
