@@ -1,6 +1,42 @@
+﻿нода
 https://nodejs.org/en/
-
+качаем стабильную версию,
 просто идем по установке, ничего не меняя, на всякий случай
+
+перезагружаем комп, чтобы там переменные path точно обновились
+
+создаем папку для проекта
+
+открываем командную строку(win+r, в появившемся окне cmd.exe, ну или поиском по программам, но так быстрее)
+в командной строке переходим в созданный каталог(cd абсолютный\путь\или\относительный\до\каталога
+
+пишем npm init, он попросит вводить всякую фигню, главное файл index.js назовите первое что спросят
+npm install express --save, чтобы загрузить эту фигню
+
+в файл index.js записываем данный пример
+
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get(‘/’, (request, response) => {
+    response.send('Hello from Express!')
+})
+
+app.listen(port, (err) => {
+    if (err) {
+        return console.log('something bad happened', err)
+    }
+
+    console.log(`server is listening on ${port}`)
+})
+
+сохраняем, опять открываем командную строку, переходим в нужный каталог, открываем js файл командой  node index.js
+далее, он должен вывести "server is listening on 3000"
+можно еще в браузере открыть 127.0.0.1:3000\index.js
+должен вывести "Hello from Express"
+
+
 
 про express
 https://medium.com/devschacht/node-hero-chapter-4-c2ebcd12565c
