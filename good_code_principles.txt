@@ -1,4 +1,4 @@
-KISS
+﻿KISS
 keep
 it
 stupid
@@ -18,3 +18,5 @@ open-closed(открыт для расширения, закрыт для мод
 liskov's substitution(принцип подставновки, подстановка дочерних классов не должна менять поведение)
 interface segregation(разделение интерфейсов)
 dependency inversion(абстракции вместо реализаций?)
+
+////
